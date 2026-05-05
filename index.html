@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="AoE Security - Professional private security services. Armed & unarmed guards, mobile patrol, 24/7 protection."/>
+  <title>AoE Security — Professional Security Services</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <img src="images/logo.png" alt="AoE Security Logo" class="logo__img" onerror="this.style.display='none'">
+        <span class="logo__text">AoE Security</span>
+      </a>
+      
+      <nav class="nav" id="nav">
+        <ul class="nav__list">
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#why-us" class="nav__link">Why Us</a></li>
+          <li><a href="#industries" class="nav__link">Industries</a></li>
+          <li><a href="#reviews" class="nav__link">Reviews</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+        <button class="btn btn--primary nav__cta" onclick="scrollToContact()">Request a Quote</button>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero__bg"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Professional Security Services You Can Trust</h1>
+      <p class="hero__subtitle">Armed & Unarmed Security Guards | 24/7 Protection | Licensed & Insured</p>
+      <div class="hero__actions">
+        <button class="btn btn--primary" onclick="scrollToContact()">Request a Quote</button>
+        <a href="#services" class="btn btn--secondary">Our Services</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="section" id="services">
+    <div class="container">
+      <h2 class="section__title">Our Security Services</h2>
+      <p class="section__subtitle">Comprehensive protection tailored to your needs</p>
+      
+      <div class="services-grid">
+        <article class="service-card">
+          <div class="service-card__icon">🛡️</div>
+          <h3>Armed Security Guards</h3>
+          <p>Highly trained personnel for high-risk environments requiring maximum protection.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">👮</div>
+          <h3>Unarmed Security Guards</h3>
+          <p>Professional presence for access control, customer service, and incident prevention.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">🎪</div>
+          <h3>Event Security</h3>
+          <p>Crowd management and safety protocols for concerts, conferences, and private events.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">🏢</div>
+          <h3>Commercial Property</h3>
+          <p>24/7 protection for offices, warehouses, and business complexes.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">🚧</div>
+          <h3>Construction Site Security</h3>
+          <p>Theft prevention and site monitoring for active and inactive construction zones.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">🛒</div>
+          <h3>Retail Security</h3>
+          <p>Loss prevention and customer safety solutions for stores and shopping centers.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">🚔</div>
+          <h3>Mobile Patrol</h3>
+          <p>Randomized vehicle patrols to deter crime across multiple locations.</p>
+        </article>
+        <article class="service-card">
+          <div class="service-card__icon">📹</div>
+          <h3>Live Monitoring</h3>
+          <p>Real-time surveillance with instant response to suspicious activity.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us -->
+  <section class="section section--dark" id="why-us">
+    <div class="container why-us">
+      <div class="why-us__content">
+        <h2 class="section__title">Why Choose AoE Security</h2>
+        <ul class="features-list">
+          <li class="feature">
+            <span class="feature__icon">✓</span>
+            <div>
+              <h4>Licensed & Insured</h4>
+              <p>Fully compliant with state regulations and comprehensive liability coverage.</p>
+            </div>
+          </li>
+          <li class="feature">
+            <span class="feature__icon">✓</span>
+            <div>
+              <h4>24/7 Availability</h4>
+              <p>Round-the-clock support and rapid response whenever you need it.</p>
+            </div>
+          </li>
+          <li class="feature">
+            <span class="feature__icon">✓</span>
+            <div>
+              <h4>Trained Professionals</h4>
+              <p>Rigorous screening, ongoing training, and certification for all personnel.</p>
+            </div>
+          </li>
+          <li class="feature">
+            <span class="feature__icon">✓</span>
+            <div>
+              <h4>Rapid Response</h4>
+              <p>Strategic positioning ensures fast deployment to your location.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="why-us__image">
+        <img src="images/guard-entrance.jpg" alt="AoE Security guard at client entrance" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22600%22 height=%22400%22%3E%3Crect fill=%22%231A4D7A%22 width=%22600%22 height=%22400%22/%3E%3Ctext fill=%22white%22 x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22%3EYour Photo Here%3C/text%3E%3C/svg%3E'">
+      </div>
+    </div>
+  </section>
+
+  <!-- Industries -->
+  <section class="section" id="industries">
+    <div class="container">
+      <h2 class="section__title">Industries We Serve</h2>
+      <div class="industries-grid">
+        <div class="industry-card">
+          <h3>🏢 Commercial</h3>
+          <p>Office buildings, corporate campuses, business parks</p>
+        </div>
+        <div class="industry-card">
+          <h3>🏘️ Residential</h3>
+          <p>HOAs, apartment complexes, gated communities</p>
+        </div>
+        <div class="industry-card">
+          <h3>🏭 Industrial</h3>
+          <p>Warehouses, factories, distribution centers</p>
+        </div>
+        <div class="industry-card">
+          <h3>🎉 Events</h3>
+          <p>Concerts, festivals, corporate gatherings, private parties</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section section--light" id="reviews">
+    <div class="container">
+      <h2 class="section__title">What Our Clients Say</h2>
+      <div class="reviews-grid">
+        <blockquote class="review-card">
+          <p>"AoE Security transformed our site safety. Professional, reliable, and always responsive."</p>
+          <footer>— Michael R., Construction Manager</footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>"The mobile patrol service gave us peace of mind across all our retail locations."</p>
+          <footer>— Sarah L., Retail Operations Director</footer>
+        </blockquote>
+        <blockquote class="review-card">
+          <p>"From hiring to deployment, the process was seamless. Highly recommend their team."</p>
+          <footer>— David K., Property Manager</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="contact">
+    <div class="container cta-section__content">
+      <h2>Ready to Protect Your Property?</h2>
+      <p>Get a free, no-obligation quote tailored to your security needs.</p>
+      <form class="quote-form" id="quoteForm">
+        <input type="text" name="name" placeholder="Your Name *" required />
+        <input type="email" name="email" placeholder="Email Address *" required />
+        <input type="tel" name="phone" placeholder="Phone Number *" required />
+        <select name="service" required>
+          <option value="">Select Service *</option>
+          <option>Armed Security Guards</option>
+          <option>Unarmed Security Guards</option>
+          <option>Event Security</option>
+          <option>Commercial Property</option>
+          <option>Construction Site</option>
+          <option>Retail Security</option>
+          <option>Mobile Patrol</option>
+          <option>Live Monitoring</option>
+        </select>
+        <textarea name="message" placeholder="Tell us about your security needs..."></textarea>
+        <button type="submit" class="btn btn--primary btn--large">Get Free Quote</button>
+      </form>
+      <div id="formSuccess" class="form-success" style="display:none;">
+        <h3>✅ Thank You!</h3>
+        <p>Your quote request has been received. We'll contact you within 24 hours.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <img src="images/logo.png" alt="AoE Security" class="footer__logo" onerror="this.style.display='none'">
+        <p>Professional private security services you can trust. Licensed, insured, and ready 24/7.</p>
+      </div>
+      <div class="footer__links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Armed Guards</a></li>
+          <li><a href="#services">Unarmed Guards</a></li>
+          <li><a href="#services">Event Security</a></li>
+          <li><a href="#services">Mobile Patrol</a></li>
+        </ul>
+      </div>
+      <div class="footer__links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#why-us">About Us</a></li>
+          <li><a href="#reviews">Testimonials</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </div>
+      <div class="footer__contact">
+        <h4>Contact</h4>
+        <p>📞 (555) 123-4567</p>
+        <p>✉️ info@aoesecurity.com</p>
+        <p>📍 Serving Your Region</p>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <p>&copy; 2026 AoE Security. All rights reserved. | Licensed & Insured</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
